@@ -1,4 +1,4 @@
-# Demo of golang:nanoserver using os/user
+# Workaround for golang:nanoserver using os/user
 
 The Golang docker images based on nanoserver are missing `c:\Windows\System32\NetApi32.dll` which makes `os/user` package fail. https://github.com/golang/go/issues/21867
 
